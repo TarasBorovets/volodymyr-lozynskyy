@@ -1,0 +1,138 @@
+/* reset*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* body*/
+body {
+	background: url(images/pattern.png);
+}
+/* logo*/
+.logo{
+	display: inline;
+	position: relative
+	
+
+}
+.imglogo{
+margin-left: 50px;	
+}
+
+.textlogo{
+text-decoration: none;
+
+  font-size: 28px;
+  font-family: "Arial";
+  color: #999999;
+  line-height: 0.857;
+
+}
+span:first-letter{
+	color: #D60451;
+} 
+
+/* menu*/
+.navmenu{
+	position: relative;
+	left: 20%;
+	width: 558px;
+	height: 58px;
+	background: url(images/navshape.png);
+	display: inline-block;
+}
+.list {
+display: inline;
+}
+.navmenu ul {
+	position: absolute;
+	left: 12%;
+	margin-top: 18px;
+}
+.navmenu ul li {
+	margin-left: 20px;
+	margin-top: 30px;
+}
+.navmenu a{
+ font-size: 14px;
+  font-family: "DroidSans";
+  color: rgb(119, 119, 119);;
+  line-height: 1.714;
+  text-decoration: none;
+ 
+
+}
+.navmenu a:hover{
+ font-size: 14px;
+  font-family: "DroidSans";
+  color: rgb(240, 94, 29);
+  line-height: 1.714;
+}
+/* section what we do*/
+.what_we_do h1{
+text-align: center;
+font-size: 30px;
+font-family: "DroidSans";
+color: rgb(51, 51, 51);
+line-height: 1.2;
+ margin: 85px 0 45px 0;
+}
+.button_what_we_do {
+text-align: center;
+}
+.dotted{
+display: block;
+text-align: center;
+height: 1px;
+margin-top: -34px;
+margin-left: 5px;
+
+}
+
+.firstpar{
+  font-size: 14px;
+  font-family: "DroidSans";
+  color: rgb(51, 51, 51);
+  line-height: 1.571;
+ 
+}
+
